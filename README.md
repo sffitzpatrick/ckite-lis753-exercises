@@ -1,1 +1,2 @@
-# lis753-exercises
+# LIS 753 Exercise
+I like donuts!
