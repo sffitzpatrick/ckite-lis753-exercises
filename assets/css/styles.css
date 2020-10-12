@@ -1,17 +1,58 @@
 body {
-  background-color: #FFC857;
+  background-color: #484132;
   font-family: arial, sans-serif;
 }
 
+.wrapper{
+  background: #D3B88C;
+  width: 92%
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+}
+
+h1{
+  margin-bottom: .3em;
+}
+
+h2{
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+
 h1, h2 {
-  color: #7C6C77;
+  color: #656256;
+}
+
+blockquote {
+  border-left: 5px solid #484132;
+  padding-left: 12px;
+}
+
+.image{
+  text-align: center;
+  margin: 2em 0;
+}
+
+.caption{
+  font-style: oblique;
+  margin-top: .25em;
 }
 
 a {
-  color: #BA2C73;
+  color: #5D737E;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+ul{
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+p{
+  line-height: 1.3em;
 }
