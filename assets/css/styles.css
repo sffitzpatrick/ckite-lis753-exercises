@@ -1,27 +1,41 @@
 body {
-  background-color: #484132;
+  background-color: #FFF8E6;
   font-family: arial, sans-serif;
 }
 
 .wrapper{
-  background-color: #e0ceaf;
+  border: 3px solid #380C00;
   width: 92%
-  max-width: 800px;
   margin: 0 auto;
   padding: 12px 20px;
 }
 
-h1{
+.inner {
+  width: 92%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+h1 {
   margin-bottom: .3em;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 36px;
+}
+
+h1 .first-line {
+  font-family: 'Damion', cursive;
+  font-size: 22px;
 }
 
 h2{
   margin-bottom: .25em;
   margin-top: 1em;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 h1, h2 {
-  color: #656256;
+  color: #EE3A00;
 }
 
 blockquote {
@@ -35,7 +49,8 @@ blockquote {
 
 .image {
   text-align: center;
-  margin: 2em 0;
+  margin: 2em -15%;
+  width: 130%;
 }
 
 .caption {
@@ -44,7 +59,7 @@ blockquote {
 }
 
 a {
-  color: #5D737E;
+  color: #1390E3;
 }
 
 img {
