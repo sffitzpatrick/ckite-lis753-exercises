@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper{
-  background: #D3B88C;
+  background-color: #e0ceaf;
   width: 92%
   max-width: 800px;
   margin: 0 auto;
@@ -27,14 +27,18 @@ h1, h2 {
 blockquote {
   border-left: 5px solid #484132;
   padding-left: 12px;
+  font-style: italic;
+  margin-left: 32px;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-.image{
+
+.image {
   text-align: center;
   margin: 2em 0;
 }
 
-.caption{
+.caption {
   font-style: oblique;
   margin-top: .25em;
 }
@@ -48,11 +52,52 @@ img {
   height: auto;
 }
 
-ul{
+ul {
   padding-left: 16px;
   margin-top: 8px;
 }
 
 p{
   line-height: 1.3em;
+}
+
+header {
+  background-image: url(../images/elastoplast.png);
+  border-bottom: 2px solid #87775c;
+  text-align: center;
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 20px 20px;
+  border-top: 2px solid #87775c;
+  font-size: smaller;
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
 }
